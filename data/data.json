@@ -39,9 +39,9 @@
     "title": "Massas",
     "type": "food",
     "items": [
-      { "name": "Ravioli de queijo com ervas e molho de tomate", "price": "[Preço Vazio]" },
-      { "name": "Ravioli de ragu com linguiça e carne com molho de tomate", "price": "[Preço Vazio]" },
-      { "name": "Fettuccine ao ragu de linguiça e carne com molho de tomate", "price": "[Preço Vazio]" },
+      { "name": "Ravioli de queijo com ervas e molho de tomate", "price": "R$ 31,80" },
+      { "name": "Ravioli de ragu com linguiça e carne com molho de tomate", "price": "R$ 32,60" },
+      { "name": "Fettuccine ao ragu de linguiça e carne com molho de tomate", "price": "R$ 30,30" },
       { "name": "Nhoque de batata com ragu de linguiça e carne com molho de tomate", "price": "R$ 48,00" }
     ]
   },
@@ -151,7 +151,7 @@
     "items": [
       { "name": "Salton", "price": "R$ 49,00" },
       { "name": "Brasil", "price": "[Preço Vazio]" },
-      { "name": "Chondon Brut", "price": "[Preço Vazio]" },
+      { "name": "Chondon Brut", "price": "R$ 145,00" },
       { "name": "Serra Gaúcha", "price": "[Preço Vazio]" }
     ]
   },
@@ -160,7 +160,7 @@
     "title": "Destilada",
     "type": "drinks",
     "items": [
-      { "name": "Gin", "price": "[Preço Vazio]" },
+      { "name": "Gin", "price": "R$ 14,00" },
       { "name": "Tequila", "price": "R$ 24,00" }
     ]
   },
@@ -169,7 +169,7 @@
     "title": "Licor",
     "type": "drinks",
     "items": [
-      { "name": "Marula", "price": "[Preço Vazio]" },
+      { "name": "Marula", "price": "R$ 11,00" },
       { "name": "Amaretto", "price": "[Preço Vazio]" }
     ]
   },
@@ -180,7 +180,7 @@
     "items": [
       { "name": "Laranja", "price": "R$ 6,10" },
       { "name": "Limonada", "price": "R$ 4,90" },
-      { "name": "Suco da fruta (Temporada)", "price": "[Preço Vazio]" }
+      { "name": "Suco da fruta (Temporada)", "price": "R$ 5,00" }
     ]
   },
   {
@@ -188,11 +188,11 @@
     "title": "Whisky",
     "type": "drinks",
     "items": [
-      { "name": "Black Label", "price": "[Preço Vazio]" },
-      { "name": "Write Horse", "price": "[Preço Vazio]" },
-      { "name": "Jack Daniels", "price": "[Preço Vazio]" },
-      { "name": "Ballantines", "price": "[Preço Vazio]" },
-      { "name": "Red Label", "price": "[Preço Vazio]" }
+      { "name": "Black Label", "price": "R$ 16,00" },
+      { "name": "Write Horse", "price": "R$ 14,00" },
+      { "name": "Jack Daniels", "price": "R$ 18,00" },
+      { "name": "Ballantines", "price": "R$ 10,00" },
+      { "name": "Red Label", "price": "R$ 11,00" }
     ]
   },
   {
@@ -200,9 +200,9 @@
     "title": "Vodka",
     "type": "drinks",
     "items": [
-      { "name": "Sminorff", "price": "[Preço Vazio]" },
+      { "name": "Sminorff", "price": "R$ 10,00" },
       { "name": "Absolut", "price": "R$ 10,00" },
-      { "name": "Dallof", "price": "[Preço Vazio]" }
+      { "name": "Dallof", "price": "R$ 10,00" }
     ]
   }
 ]
