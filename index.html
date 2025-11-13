@@ -408,11 +408,17 @@
                                                                 @click="openItemModal(item, section.title)"
                                                                 title="Ver detalhes"
                                                                 class="cursor-pointer w-16 h-16 rounded-full bg-gradient-to-br from-brand-cream to-brand-beige overflow-hidden flex items-center justify-center border-2 border-brand-wood">
-                                                                <svg class="w-8 h-8 text-brand-primary opacity-60"
-                                                                    fill="currentColor" viewBox="0 0 24 24">
-                                                                    <path
-                                                                        d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z" />
-                                                                </svg>
+                                                                <template x-if="item && item.image">
+                                                                    <img x-bind:src="item.image" x-bind:alt="item.name.split('<span')[0]"
+                                                                        class="w-full h-full object-cover rounded-full">
+                                                                </template>
+                                                                <template x-if="!item || !item.image">
+                                                                    <svg class="w-8 h-8 text-brand-primary opacity-60"
+                                                                        fill="currentColor" viewBox="0 0 24 24">
+                                                                        <path
+                                                                            d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z" />
+                                                                    </svg>
+                                                                </template>
                                                             </div>
                                                         </div>
 
@@ -739,27 +745,29 @@
             x-transition:enter-start="scale-95 opacity-0" x-transition:enter-end="scale-100 opacity-100"
             x-transition:leave="transition ease-in duration-200" x-transition:leave-start="scale-100 opacity-100"
             x-transition:leave-end="scale-95 opacity-0"
-            class="bg-white rounded-2xl w-full max-w-xl overflow-hidden shadow-2xl">
+            class="relative bg-white rounded-2xl w-full max-w-xl overflow-hidden shadow-2xl">
 
-            <div class="p-4 border-b border-gray-200 flex items-center justify-between">
-                <div class="flex items-center gap-3">
-                    <div class="w-16 h-16 rounded-lg overflow-hidden bg-brand-cream flex items-center justify-center border-2 border-brand-wood">
+            <div class="p-4 border-b border-gray-200 flex items-start justify-between gap-4">
+                <div class="flex flex-1 flex-col md:flex-row items-center md:items-start gap-3">
+                    <div class="w-full h-48 md:w-48 md:h-48 rounded-xl overflow-hidden bg-brand-cream flex items-center justify-center border-2 border-brand-wood">
                         <template x-if="activeItem && activeItem.image">
                             <img x-bind:src="activeItem.image" alt="" class="w-full h-full object-cover">
                         </template>
                         <template x-if="!activeItem || !activeItem.image">
-                            <svg class="w-8 h-8 text-brand-primary opacity-60" fill="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-12 h-12 text-brand-primary opacity-60" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z" />
                             </svg>
                         </template>
                     </div>
-                    <div>
+
+                    <div class="flex-1 text-center md:text-left mt-3 md:mt-0">
                         <h3 class="text-lg font-bold text-brand-dark" x-html="activeItem ? activeItem.name.split('<span')[0] : ''"></h3>
-                        <p class="text-xs text-gray-500" x-show="activeItem && activeItem.name.includes('<span')" x-html="activeItem ? (activeItem.name.match(/<span[^>]*>(.*?)<\/span>/)?.[1] || '') : ''"></p>
+                        <p class="text-xs text-gray-500 mt-1" x-show="activeItem && activeItem.name.includes('<span')" x-html="activeItem ? (activeItem.name.match(/<span[^>]*>(.*?)<\/span>/)?.[1] || '') : ''"></p>
                     </div>
                 </div>
 
-                <button @click="closeItemModal()" class="p-2 hover:bg-gray-100 rounded-full transition-colors">
+                <!-- Close button positioned absolutely to avoid overlapping full-width image on mobile -->
+                <button @click="closeItemModal()" class="absolute top-3 right-3 p-2 bg-white rounded-full shadow-sm hover:bg-gray-100 transition-colors z-30">
                     <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                     </svg>
