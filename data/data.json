@@ -24,8 +24,8 @@
       { "name": "Filé à milanesa (purê de batata, arroz com cenoura)", "price": "R$ 39,90", "image": "assets/img/Filé à milanesa.jpeg" },
       { "name": "Parmegiana de carne (talharim na manteiga, com ervas, e molho de tomate e mussarela)", "price": "R$ 41,70", "image": "assets/img/Parmegiana.jpeg" },
       { "name": "Tilápia (purê, arroz de brócolis, molho de cebola roxa)", "price": "R$ 40,90", "image": "assets/img/Peixe ao molho de cebola roxa.jpeg" },
-      { "name": "Moqueca com camarão e peixe (arroz de coentro, farofa de dendê)", "price": "R$ 47,30", "image": "assets/img/Muqueca de peixe com camarão.jpeg" },
-      { "name": "Bobó de camarão (arroz branco, farofa de biscoito)", "price": "R$ 48,90" },
+      { "name": "Moqueca com camarão e peixe (arroz de coentro, farofa de dendê)", "price": "R$ 47,80", "image": "assets/img/Muqueca de peixe com camarão.jpeg" },
+      { "name": "Bobó de camarão (arroz branco, farofa de biscoito)", "price": "R$ 44,90" },
       { "name": "Risoto de camarão (molho bisque de de camarão e queijo)", "price": "R$ 52,90" },
       { "name": "Espaguete com camarão (molho de tomate confit)", "price": "R$ 44,30", "image": "assets/img/Espaguete de camarão massa fresca.jpeg" },
       { "name": "Peixe a milanesa (arroz piamontese, mix de folhas, molho de ervas)", "price": "R$ 47,30" },
@@ -42,7 +42,7 @@
       { "name": "Ravioli de queijo com ervas e molho de tomate", "price": "R$ 31,80" },
       { "name": "Ravioli de ragu com linguiça e carne com molho de tomate", "price": "R$ 32,60" },
       { "name": "Fettuccine ao ragu de linguiça e carne com molho de tomate", "price": "R$ 30,30" },
-      { "name": "Nhoque de batata", "price": "R$ 28,20" }
+      { "name": "Nhoque de batata", "price": "R$ 28,90" }
     ]
   },
   {
@@ -83,7 +83,7 @@
     "type": "drinks",
     "items": [
       { "name": "Café expresso", "price": "R$ 4,00" },
-      { "name": "Capuccino", "price": "R$ 6,00" }
+      { "name": "Capuccino", "price": "R$ 7,00" }
     ]
   },
   {
