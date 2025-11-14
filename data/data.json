@@ -4,10 +4,10 @@
     "title": "Entradas",
     "type": "food",
     "items": [
-      { "name": "Bolinhos de bacalhau (2 unid. - molho tártaro)", "price": "R$ 24,90", "image": "assets/img/Bolinho de bacalhau.jpeg" },
-      { "name": "Pastel de queijo (2 unid.)", "price": "R$ 24,90" },
-      { "name": "Pastel de camarão (2 unid.)", "price": "R$ 25,60" },
-      { "name": "Pastel de carne de sol acebolada (2 unid.)", "price": "R$ 25,10" },
+      { "name": "Bolinhos de bacalhau (8 unid. - molho tártaro)", "price": "R$ 24,90", "image": "assets/img/Bolinho de bacalhau.jpeg" },
+      { "name": "Pastel de queijo (8 unid.)", "price": "R$ 24,90" },
+      { "name": "Pastel de camarão (8 unid.)", "price": "R$ 25,60" },
+      { "name": "Pastel de carne de sol acebolada (8 unid.)", "price": "R$ 25,10" },
       { "name": "Salada de frango (molho mostarda)", "price": "R$ 25,90" },
       { "name": "Salada de camarão (molho caesar)", "price": "R$ 25,90" }
     ]
@@ -26,7 +26,7 @@
       { "name": "Tilápia (purê, arroz de brócolis, molho de cebola roxa)", "price": "R$ 40,90", "image": "assets/img/Peixe ao molho de cebola roxa.jpeg" },
       { "name": "Moqueca com camarão e peixe (arroz de coentro, farofa de dendê)", "price": "R$ 47,30", "image": "assets/img/Muqueca de peixe com camarão.jpeg" },
       { "name": "Bobó de camarão (arroz branco, farofa de biscoito)", "price": "R$ 48,90" },
-      { "name": "Risoto de camarão (talharim na manteiga, com ervas, e molho de tomate e mussarela)", "price": "R$ 52,90" },
+      { "name": "Risoto de camarão (molho bisque de de camarão e queijo)", "price": "R$ 52,90" },
       { "name": "Espaguete com camarão (molho de tomate confit)", "price": "R$ 44,30", "image": "assets/img/Espaguete de camarão massa fresca.jpeg" },
       { "name": "Peixe a milanesa (arroz piamontese, mix de folhas, molho de ervas)", "price": "R$ 47,30" },
       { "name": "Peito de frango grelhado (arroz de brócolis, aipim frito ao molho de mostarda)", "price": "R$ 31,90" },
@@ -42,7 +42,7 @@
       { "name": "Ravioli de queijo com ervas e molho de tomate", "price": "R$ 31,80" },
       { "name": "Ravioli de ragu com linguiça e carne com molho de tomate", "price": "R$ 32,60" },
       { "name": "Fettuccine ao ragu de linguiça e carne com molho de tomate", "price": "R$ 30,30" },
-      { "name": "Nhoque de batata com ragu de linguiça e carne com molho de tomate", "price": "R$ 48,00" }
+      { "name": "Nhoque de batata", "price": "R$ 28,20" }
     ]
   },
   {
@@ -71,9 +71,9 @@
     "title": "Sobremesa",
     "type": "food",
     "items": [
-      { "name": "Delícia de banana (sorvete, calda de caramelo)", "price": "R$ 14,00" },
-      { "name": "Brownie (sorvete, calda de chocolate)", "price": "R$ 14,00", "image": "assets/img/Brownie.jpeg" },
-      { "name": "Torta de Romeu e Julieta", "price": "R$ 14,00" },
+      { "name": "Delícia de banana (sorvete, calda de caramelo)", "price": "R$ 9,00" },
+      { "name": "Brownie (sorvete, calda de chocolate)", "price": "R$ 11,00", "image": "assets/img/Brownie.jpeg" },
+      { "name": "Cheesecake", "price": "R$ 9,00" },
       { "name": "Pudim de leite", "price": "R$ 8,00", "image": "assets/img/Pudim.jpeg" }
     ]
   },
