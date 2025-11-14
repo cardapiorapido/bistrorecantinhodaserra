@@ -161,7 +161,7 @@
     "type": "drinks",
     "items": [
       { "name": "Gin", "price": "R$ 14,00" },
-      { "name": "Tequila", "price": "R$ 24,00" }
+      { "name": "Tequila", "price": "R$ 12,00" }
     ]
   },
   {
