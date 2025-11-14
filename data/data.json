@@ -91,12 +91,12 @@
     "title": "Drink",
     "type": "drinks",
     "items": [
-      { "name": "Drink tardinha<span class=\"item-description\">(Gengibre, limão, polpa de maracujá, xarope de açúcar, gelo, cachaça)</span>", "price": "R$ 22,00" },
+      { "name": "Drink tardinha<span class=\"item-description\">(Gengibre, limão, polpa de maracujá, xarope de açúcar, gelo, cachaça)</span>", "price": "R$ 26,00" },
       { "name": "Drink Espanhola", "price": "R$ 23,00" },
-      { "name": "Aperol ice<span class=\"item-description\">(Gelo, laranja, aperol, lecce)</span>", "price": "R$ 23,00" },
-      { "name": "Espaguete<span class=\"item-description\">(Aperol, gelo, limão, cerveja)</span>", "price": "R$ 25,90" },
+      { "name": "Aperol ice<span class=\"item-description\">(Gelo, laranja, aperol, lecce)</span>", "price": "R$ 22,90" },
+      { "name": "Espaguete<span class=\"item-description\">(Aperol, gelo, limão, cerveja)</span>", "price": "R$ 23,90" },
       { "name": "Aperol tônica<span class=\"item-description\">(Gelo, maracujá, aperol, água tônica)</span>", "price": "R$ 24,00", "image": "assets/img/Aperol água tônica.jpeg" },
-      { "name": "Campari isotônico<span class=\"item-description\">(Gelo, campari, gatorade de laranja)</span>", "price": "R$ 23,50" },
+      { "name": "Campari isotônico<span class=\"item-description\">(Gelo, campari, gatorade de laranja)</span>", "price": "R$ 25,50" },
       { "name": "Campari ice<span class=\"item-description\">(Gelo, limão, campari e ice)</span>", "price": "R$ 24,90" },
       { "name": "Cubra libre<span class=\"item-description\">(Rum, limão e Coca-Cola)</span>", "price": "R$ 23,00" }
     ]
@@ -149,7 +149,7 @@
     "title": "Espumante",
     "type": "drinks",
     "items": [
-      { "name": "Salton", "price": "R$ 49,00", "image": "assets/img/Espumante Salton.jpeg" },
+      { "name": "Salton", "price": "R$ 99,00", "image": "assets/img/Espumante Salton.jpeg" },
       { "name": "Brasil", "price": "[Preço Vazio]" },
       { "name": "Chandon Brut", "price": "R$ 145,00", "image": "assets/img/Espumante Chandon.jpeg" },
       { "name": "Serra Gaúcha", "price": "[Preço Vazio]" }
@@ -190,7 +190,7 @@
     "items": [
       { "name": "Black Label", "price": "R$ 16,00" },
       { "name": "Write Horse", "price": "R$ 14,00" },
-      { "name": "Jack Daniels", "price": "R$ 18,00" },
+      { "name": "Jack Daniels", "price": "R$ 16,00" },
       { "name": "Ballantines", "price": "R$ 10,00" },
       { "name": "Red Label", "price": "R$ 11,00" }
     ]
