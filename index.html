@@ -33,9 +33,28 @@
     <!-- CDN tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
     
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-primary': '#8B3A3A',
+                        'brand-dark': '#3D2417',
+                        'brand-wood': '#8B6239',
+                        'brand-beige': '#F5F0E8',
+                        'brand-cream': '#E8DCC8',
+                        'brand-maroon': '#6B2C2C',
+                    }
+                }
+            }
+        }
+    </script>
+    
     <!-- Alpine.js local (defer) -->
     <script defer src="js/alpinejs/cdn.min.js"></script>
 
+    <!-- Alpine.js CDN (defer) -->
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     
     <link rel="stylesheet" href="css/styles.css">
 </head>
